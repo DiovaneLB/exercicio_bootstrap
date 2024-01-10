@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://media.istockphoto.com/id/1478011106/pt/foto/dragonfly-sits-in-the-reeds-on-the-lake.webp?s=2048x2048&w=is&k=20&c=yxRuMQKuZW0UpxuE3OimXG9s7gWlWEgpCJa2pr15WVQ=" alt="">
+                    <div class="carousel-caption">
+                        <h2>Foto</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://media.istockphoto.com/id/1502366049/pt/foto/blue-dragonfly-in-the-dark.webp?s=2048x2048&w=is&k=20&c=EFghCXJNkqOZQYNdan90HfH3a4xcocM3smEg4RpZmJY=" alt="">
+                    <div class="carousel-caption">
+                        <h2>Foto</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://img.olhardigital.com.br/wp-content/uploads/2021/10/shutterstock_1903709437.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Foto</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" type="button" class="carousel-control-prev" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" type="button" class="carousel-control-next" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button class="active" type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
